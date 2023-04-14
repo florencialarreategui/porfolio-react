@@ -1,12 +1,13 @@
-import Menu from "./Menu"
+import Menu from "./Menu";
+import "../styles/style.scss"
 const Home = () =>{
     return (
-        <div>
-            <div className="nombre-home">
+        <div className="home-container">
+            <div className="home-text">
             <h1>Florencia</h1>
             <h2>Larreategui</h2>
+            <Menu/>
             </div>
-            <Menu></Menu>
         </div>
 
     )

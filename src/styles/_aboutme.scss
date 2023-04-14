@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .about-me-container{
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../images/sobre-mi.jpg");
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5rem;
+    }
+
+    .about-me-background{
+        width: 85vw;
+        height: 80vh;
+        background-color: #E39459;
+        opacity: 0.3;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-me-text h1{
+     opacity: 1;
+    }

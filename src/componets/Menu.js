@@ -1,8 +1,8 @@
-
+import "../styles/style.scss"
 const Menu = () => {
     return (
-        <div>
-            <ul>
+        <div className="menu-home">
+            <ul className="menu-list">
                 <li>
                     Sobre mi
                 </li>

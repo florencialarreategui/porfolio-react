@@ -1,0 +1,30 @@
+*{
+margin: 0;
+box-sizing: border-box;
+}
+.home-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/porfolio-portada 1.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.home-text{
+    margin-left: 10vw;
+   margin-bottom: 20vh;
+}
+.home-text h1{
+    font-size: 9vh;
+    font-family: $principal-font;
+    color: $color-font;
+   font-weight: 600;
+}
+
+.home-text h2{
+    font-size: 7vh;
+    font-family: $principal-font;
+    color:$color-font;
+  font-weight: 500;
+}

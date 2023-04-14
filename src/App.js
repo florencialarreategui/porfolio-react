@@ -1,9 +1,12 @@
 import './App.css';
+import AboutMe from './componets/AboutMe';
+import Home from "./componets/Home"
 
 const App = ()=> {
   return (
   <div>
-    <h1>Hola </h1>
+    <Home></Home>
+    <AboutMe></AboutMe>
   </div>
   );
 }
