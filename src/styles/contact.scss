@@ -2,29 +2,35 @@
     margin: 0;
     box-sizing: border-box;
     }
-    .about-me-container{
+    .contact-container{
         width: 100vw;
         height: 100vh;
-        background-image: url("../images/sobre-mi.jpg");
+        background-image: url("../images/fondo-general.jpg");
         background-size: cover;
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 5rem;
+        color: $color-font;
+        font-family: $principal-font;
     }
 
-    .about-me-background{
-        width: 85vw;
-        height: 80vh;
+    .contact-background{
+        width: 65vw;
+        height: 60vh;
         background: rgba(227, 148, 89, 0.3);
         display: flex;
         align-items: center;
         flex-direction: column;
         padding: 3vw;
     }
-    .about-me-text{
-        font-family: $principal-font;
-        color: $color-font;
+    .div-contact-icons{
+        margin-top: 2rem;
+      font-weight: 500;
+       font-size: 20px;
     }
-    .about-me-text{
-        font-weight: 500;
+
+    .contact-icons{
+        display: flex;
+
     }
