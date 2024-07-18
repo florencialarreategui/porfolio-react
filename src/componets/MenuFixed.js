@@ -1,30 +1,36 @@
 import "../styles/style.scss"
 import { BrowserRouter, Link } from "react-router-dom"
-const Menu = () => {
+const MenuFixed = () => {
     return (
         <div className="menu-home">
-            <ul className="menu-list">
+            <ul className="menufixed-list">
               <BrowserRouter>
+              <li>|</li>
                 <li>
-                  <Link to="/about-me"> Sobre mi</Link> 
+                  <Link to="/about-me">Sobre mi </Link> 
                 </li>
+                <li>|</li>
                 <li>
-                    Skills
+                    Skills  
                 </li>
+                <li>|</li>
             
                 <li>
-                    Formación
+                    Formación 
                 </li>
+                <li>|</li>
                 <li>
-                    Contacto
+                    Contacto 
                 </li>
+                <li>|</li>
                 <li>
                 <Link to="/proyectos-web"> Proyectos web</Link> 
                 </li>
+                <li>|</li>
                 </BrowserRouter>
             </ul>
         </div>
     )
 } 
 
-export default Menu; 
+export default MenuFixed; 

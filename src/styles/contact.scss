@@ -7,7 +7,6 @@
         height: 100vh;
         background-image: url("../images/fondo-general.jpg");
         background-size: cover;
-        display: flex;
         align-items: center;
         justify-content: center;
         padding: 5rem;
@@ -21,16 +20,21 @@
         background: rgba(227, 148, 89, 0.3);
         display: flex;
         align-items: center;
+        justify-content:space-around;
         flex-direction: column;
-        padding: 3vw;
+        padding: 1vw;
     }
     .div-contact-icons{
         margin-top: 2rem;
       font-weight: 500;
-       font-size: 20px;
+       font-size: 2rem;
+       
     }
 
     .contact-icons{
         display: flex;
 
+    }
+    .menufixedContact{
+        position: bottom;
     }

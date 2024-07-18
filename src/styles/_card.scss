@@ -1,6 +1,11 @@
 .card {
-    width: 200px;
-    height: 200px;
+    width: 15rem;
+    height: 15rem;
     background-color: black;
     margin:2rem;
 }
+
+
+.card img:hover {
+        width: 20rem;
+  }
